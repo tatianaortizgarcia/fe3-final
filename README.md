@@ -29,7 +29,7 @@ cd fe3-final
 git remove remote origin
 
 # Agrega el link al repositorio de tu cuenta de github, reemplaza <tuusuario> por tu cuenta
-git remote add origin https://github.com/tatianaortizgarcia/fe3-final
+git remote add origin https://github.com/<tuusuario>/fe3-final
 
 # Sube el template inicial a tu repositorio de github
 git push -u origin main

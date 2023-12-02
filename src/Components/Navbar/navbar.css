@@ -1,0 +1,46 @@
+@import url('../../var.css');
+
+nav{
+    display: flex;
+    width: 95vw;
+    justify-content: flex-start;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-links{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+  
+a{
+color: var(--text-primary);;
+text-decoration: none;
+margin: 5px;
+cursor: pointer;
+}
+
+a:hover{
+color: var(--accent-hover);
+} 
+
+.container-button{
+    align-self: center;
+}
+
+.button-theme {
+    background-color: var(--background);
+    color: var(--text-primary);
+    border: 2px solid var(--accent);
+    font-size: 20px;
+  
+  padding: 0;
+
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 12px;
+}
